@@ -5,34 +5,56 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>My Profile</title>
     <link rel="stylesheet"
-    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    / >
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" / >
+    <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;1,200&display=swap" rel="stylesheet">
     <style>
+      a
+      {
+        text-decoration: none;
+        color: darkviolet;
+      }
       header {
         color: rgb(160, 11, 11);
         background-color: aliceblue;
         margin-bottom: 20px;
+        font-family: 'Poppins', sans-serif;
       }
       .headercontent {
         margin-right: 50px;
       }
 
-      .links a {
+     /* .links a {
         text-decoration: none;
         text-transform: uppercase;
         margin-right: 50px;
         margin: bottom 20px; ;
-        color: darkviolet;
+        
+        display: inline-block;
 
-      }
-      /*.contair {
-        font-size: 2rem;
-       
       }*/
       .contair1 {
-        margin-right: 40px;
-        color: rgb(226, 43, 98);
+        font-size: 2rem;
+        color: rgb(226, 43, 98); 
+      }
+      .contair li{
+        margin-right: 50px;
         font-size: larger;
+        display: inline-block;
+
+      }
+      nav ul li{
+        display: inline-block;
+        width: 100px;
+        text-transform: uppercase;
+        margin-right: 50px;
+        font-family: 'Poppins', sans-serif;
+        
+      }
+      p
+      {
+        font-family: 'Sofia', cursive;
       }
     </style>
   </head>
@@ -48,13 +70,15 @@
       ><span class="headercontent">Resume</span>
     </header>
      
-    <div class="links">
-      <a href="proffesionalSummary.html" target="myFrame"><span>Home</span></a>
-      <a href="teckStack.html" target="myFrame">Techstach</a>
-      <a href="projectDetail.html" target="myFrame">Project</a>
-      <a href="tableEducation.html" target="myFrame">Education</a
-      ><a href="aboutMe.html" target="myFrame">About Me</a>
-    </div>
+   <nav>
+      <ul>
+      <li><a href="proffesionalSummary.html" target="myFrame"><span>Home</span></a></li>
+      <li><a href="teckStack.html" target="myFrame">Techstach</a></li>
+      <li><a href="projectDetail.html" target="myFrame">Project</a></li>
+      <li><a href="tableEducation.html" target="myFrame">Education</a ></li>
+        <li>  <a href="aboutMe.html" target="myFrame">About Me</a></li>
+       </ul>
+      </nav>
     <iframe
       width="800px"
       height="550px"
@@ -65,22 +89,22 @@
     </iframe
     ><br />
     <div class="contair">
-    follow me
-    
-      <a href="https://www.linkedin.com/login" target="_blank">
-       <span class="contair1"><i class="fa-brands fa-linkedin" ></i></span> </a>
-      <a href="https://desktop.github.com/" target="_blank">
-      </span><span class="contair1"><i class="fa-brands fa-github" ></i></span>
-      </a>
+   
+    <ul>
+    <li> follow me</li>
+      <li><a href="https://www.linkedin.com/login" target="_blank">
+       <span class="contair1"><i class="fa-brands fa-linkedin" ></i></span> </a></li>
+       <li><a href="https://desktop.github.com/" target="_blank">
+      <span class="contair1"><i class="fa-brands fa-github" ></i></span>
+      </a></li>
 
-      <a href="https://twitter.com/i" target="_blank">
+      <li><a href="https://twitter.com/i" target="_blank">
         <span class="contair1"> <i
-          class="fa-brands fa-square-twitter"
-        ></i></span>
-      </a>
-      <a href="https://www.facebook.com/" target="_blank">
+          class="fa-brands fa-square-twitter"  ></i></span ></a></li>
+          <li> <a href="https://www.facebook.com/" target="_blank">
         <span class="contair1"><i class="fa-brands fa-facebook" ></i></span>
-      </a>
+      </a></li>
+    </ul>
     </div>
     <p>
       Copyright &copy; 2023 Zoom Video Communications, Inc. All rights reserved.

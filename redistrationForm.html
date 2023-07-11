@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,500;1,200&family=Roboto:wght@300&family=Signika+Negative&display=swap" rel="stylesheet">
+    
+    <style>
+        table,tr,td{
+
+            background-color: azure;
+        }
+        h2{
+          font-family: 'Poppins', sans-serif;
+        }
+        input[type="text"]
+        {
+          width: 200px;
+          border-radius: 10px;
+          padding: 7px;
+          color: cornflowerblue;
+          font-weight: bolder;
+          font-size: large;
+          text-transform: uppercase;
+          font-family: 'Poppins', sans-serif;
+        }
+        label{
+          font-family: 'Poppins', sans-serif;
+          color: darkcyan;
+        }
+        button{
+          font-family: 'Poppins', sans-serif;
+          border-radius: 10px;
+        }
+      
+  
+    </style>
+  </head>
+  <body>
+    <fieldset>
+      <legend><h2>Student Registration Form</h2></legend>
+    <table>
+      
+      <tbody>
+        
+        <form>
+          <tr>
+            <td>
+                <label>First Name</label>
+                
+            </td>
+                <td><input type="text" autofocus>
+            </td>
+          </tr>
+          <tr>
+            <td>
+                <label>Last Name</label>
+            </td>
+            <td><input type="text" ></td>
+          </tr>
+          <tr>
+            <td>
+                <label>Email Address</label>
+            </td>
+            <td><input type=" email"></td>
+            
+          </tr>
+          <tr>
+            <td><label>Password</label></td>
+            <td><input type="number"></td>
+          </tr>
+          <tr>
+            <td><label>Graduation</label></td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+            <td><label>Date of Birth</label></td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td><label>Pass out Year</label>></td>
+            <td><input type="date"></td>
+          </tr>
+          <tr>
+            <td><label>Permanent Address</label></td>
+            <td><input type="text"></td>
+          </tr>
+          <tr>
+          <td><label>Select your Hobies</label></td>
+            <td><input type="checkbox"><label>Reading</label>
+            <input type="checkbox"><label>Dancing</label>
+             <input type="checkbox"><label>Programming</label>
+             <input type="checkbox"><label>LIstening Music</label>
+          </td>
+        </tr>
+          <tr>
+            <td>
+              <label>Select Gender</label></td>
+              <td>
+               <input type="radio" ><label>Male</label>
+              <input type="radio"><label>Female</label>
+              <input type="radio"><label>Other</label></td>
+          </tr>
+          <tr>
+         <td> <label>Select Graduation</label></td>
+         <td>
+          <select>
+            <option value="BE">BE</option>
+            <option value="MBA">MBA</option>
+            <option value="BA">BA</option>
+            <option value="M.COM"> M.COM</option>
+            <option value="M.Tech">M.Tech</option>
+
+        </select>
+         </td>
+        </tr>
+        <tr><td><label>country</label></td>
+        <td><input type="text" value="India" readonly></td>
+        </tr>
+        <tr>
+          <td><label>Present Address</label></td>
+          <td><textarea rows="0" cols="7"></textarea></td>
+      </tr>
+      <tr>
+          <td><button type="submit">Register</button></td>
+          <td><button type="reset">Clear All</button></td>
+      </tr>
+        </form>
+      </tbody>
+    
+    </table>
+  </fieldset>
+  </body>
+</html>
